@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+#container{width: 980px;margin:0 auto; font-family: 'Verdana';}
+#menu{width:250px;float:left;}
+#conteudo{width: 700px;float: left; font-size:18px;}
+
+.produtos{width:200px;float:left;display:block;margin-right:20px;height:320px;}
+.nome-produto{font-size:14px;text-align:center;}
+.preco-produto{font-size:14px;text-align:center;}
+.bt-produto{text-align:center;margin-top:10px;}
+
+/*menu*/
+ul{list-style:none;}
+ul li{font-size:18px;}
+ul li ul a{margin-left:30px;color: #000;text-decoration:nome;}
+
+
+#titulo{margin-bottom:20px;font-size:18px;text-align:center;}
+
+
+#foto-produto{width:200px;float:left;}
+
+#descricao-produto{width:500px;float:right;}

@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php-activerecord/php-activerecord": "dev-master",
+        "slim/slim": "dev-master",
+        "twig/twig": "1.16.*@dev",
+        "twitter/bootstrap": "3.3.*@dev",
+        "smottt/wideimage": "dev-master"
+    },
+    "autoload" : {
+    	"psr-4": {
+    		"app\\models\\" : "app/models",
+    		"app\\classes\\" : "app/classes",
+    		"app\\interfaces\\" : "app/interfaces",
+    		"app\\traits\\" : "app/traits"
+    	}
+    }
+}
